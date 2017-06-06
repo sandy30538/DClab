@@ -135,7 +135,7 @@ module Rsa256Core(
 					hi_w[1] = 1;
 					temp_pre_w = result_mont2;
 				end
-
+				// Two montogomery are done
 				if (hi_r == 3) begin
 					if (count_r == 255) begin
 						fin_w = 1;
